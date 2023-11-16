@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #21211e;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.animation {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.contenido {
+    padding: 20px;
+}
+
+img {
+    width: 500px;
+	height: 500px;
+	border-radius: 25%;
+	object-fit: cover;
+}
+
+.secciones {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.secciones div {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.secciones h2 {
+    color: #333;
+}
+
+.secciones h4 {
+    color: #666;
+}
+
+.secciones p {
+    color: #777;
+    line-height: 1.5;
+}
+
+.product-description,
+.additional-info {
+    margin-top: 20px;
+    color: #777;
+    line-height: 1.5;
+}
+
+.menu-secundario {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-secundario p {
+    color: #555;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #21211e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
