@@ -131,11 +131,19 @@ img.Sec {
 
 .secciones h2 {
     color: #333;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.secciones h3{
+	margin-top: 5px;
 }
 
 .secciones h4 {
     color: #666;
 }
+
 
 .secciones p {
     color: #777;
