@@ -168,7 +168,8 @@ h2.SubContenedor{
 }
 
 .Producto h3{
-	color: seagreen;
+	color: #474554;
+	margin-top: 1px;
 }
 
 .Producto p{
@@ -184,7 +185,7 @@ h2.SubContenedor{
 	padding: 7px 25px;
 	border-radius: 5px;
 	color: white;
-	background-color: bisque;
+	background-color: #62787E;
 }
 /* -------------Footer--------------- */
 .footer{
