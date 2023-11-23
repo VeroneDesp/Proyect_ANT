@@ -81,26 +81,68 @@ nav .start-blog, a:nth-child(3):hover~.animation {
 	background-color: #AAAD9B;
 }
 nav .start-portefolio, a:nth-child(4):hover~.animation {
-	width: 140px;
+	width: 130px;
 	left: 310px;
 	background-color: #88A687;
 }
 
 /* -------------Título--------------- */
-h1 {
-	text-align: center;
-	text-transform: capitalize;
-	margin: 40px 0 40px;
-	text-align: center;
-	font-size: 45px;
-	color: white;
-	text-shadow: 2px 2px 4px #464838;
-	font-family: Poppins,sans-serif;
+.title-word {
+  animation: color-animation 4s linear infinite;
 }
 
-p #Sub-Mini-Titulo {
+.title-word-1 {
+  --color-1: #3B7F6A; 
+  --color-2: #87754B; 
+  --color-3: #FFD197; 
+}
+
+.title-word-2 /*A*/{
+  --color-1: #87754B; 
+  --color-2: #608B6B; 
+  --color-3: #3B7F6A; 
+}
+
+.title-word-3 /*N*/{
+  --color-1: #FFD197; 
+  --color-2: #464838;
+  --color-3: #63A478; 
+}
+
+.title-word-4 /*T*/{
+  --color-1: #464838; 
+  --color-2: #3B7F6A; 
+  --color-3: #464838;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+.TituloCont {
+  display: grid;
+  place-items: center;  
+  text-align: center;
+  height: 20vh
+}
+
+.Titulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 5.5vw;
+  text-transform: uppercase;
+}
+
+#Sub-Mini-Titulo {
 	align-content: center;
 	margin-top: 10px;
+	text-align: center;
 }
 
 /*-------------Contenedores----------*/
@@ -179,10 +221,6 @@ font-size:0.8em;
 text-decoration:none;
 color:gray;
 transition:0.5s;
-}
-
-.footer .row a:hover{
-color:#000;
 }
 
 .footer .row ul{

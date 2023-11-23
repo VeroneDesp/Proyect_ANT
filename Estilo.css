@@ -226,6 +226,7 @@ h2.SubContenedor{
 	color: white;
 	background-color: #62787E;
 }
+/*---------------Carrousel publicidad-----------------*/
 /* -------------Footer--------------- */
 .footer{
 background:#E8E9DF;
@@ -250,10 +251,6 @@ font-size:0.8em;
 text-decoration:none;
 color:gray;
 transition:0.5s;
-}
-
-.footer .row a:hover{
-color:#000;
 }
 
 .footer .row ul{
