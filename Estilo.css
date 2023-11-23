@@ -202,6 +202,10 @@ padding:0.6% 0%;
 color:gray;
 font-size:0.8em;
 }
+.footer img{
+	max-width: 30px;
+	max-height: 30px;
+}
 
 .footer .row a{
 text-decoration:none;
